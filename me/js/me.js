@@ -37,6 +37,8 @@ $(document).ready(function() {
 	
 	$("#home .text-col h1").fitText(0.9, { minFontSize: '38px', maxFontSize: '63px' });
 	$("#home .text-col p").fitText(1.2, { minFontSize: '18px', maxFontSize: '32px' });
+	$("#slideshow .text-col h1").fitText(0.9, { minFontSize: '38px', maxFontSize: '63px' });
+	$("#slideshow .text-col p").fitText(1.2, { minFontSize: '18px', maxFontSize: '32px' });
 	
 	if($('#home .imac-screen').length){
 		$('.imac-screen img').load(function(){
@@ -45,10 +47,18 @@ $(document).ready(function() {
 	}else{
 		$('#home .text-col h1, #home .text-col p').addClass('in');
 	}
+
+	if($('#slideshow .imac-screen').length){
+		$('.imac-screen img').load(function(){
+			$('#slideshow .text-col h1, #slideshow .text-col p, #slideshow .imac-frame').addClass('in');
+		});
+	}else{
+		$('#slideshow .text-col h1, #slideshow .text-col p').addClass('in');
+	}
 	/*============================================
 	Skills Functions
 	==============================================*/
-	var color = $('#home').css('backgroundColor');
+	var color = $('#slideshow').css('backgroundColor');
 
 	$('.skills').waypoint(function(){
 		$('.chart').each(function(){

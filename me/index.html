@@ -174,7 +174,7 @@
 					<p></p>
 				</div>
 
-				<div class="scrollimation col-md-2 col-sm-6 fade-up item d3">
+				<div class="scrollimation col-md-2 col-sm-6 fade-up item d4">
 					<div class="icon">
 						<img alt="" class="img-center img-responsive" src="assets/node.png">
 					</div>
@@ -229,7 +229,7 @@
 					<p></p>
 				</div>
 
-				<div class="scrollimation col-md-2 col-sm-6 fade-up item d3">
+				<div class="scrollimation col-md-2 col-sm-6 fade-up item d4">
 					<div class="icon">
 						<img alt="" class="img-center img-responsive" src="assets/phplang.png">
 					</div>
@@ -278,6 +278,78 @@
 		
 		<div class="container masonry-wrapper scrollimation fade-in">
 			<div id="projects-container">
+
+				<article class="project-item programming">
+					<img class="img-responsive project-image" src="assets/projects/dribbble_1.jpg"  alt="">
+					
+					<div class="hover-mask">
+						<h2 class="project-title">Data Encryption</h2>
+						<p>Fall 2016</p>
+					</div>
+										
+					<div class="sr-only project-description" 
+						data-category="Programming" 
+						data-date="Fall 2016" 
+						data-descr="Encryption using Caesar's Cipher and Vigenere's Cipher" 
+						data-images="assets/projects/preview_1_1.jpg,assets/projects/preview_1_2.jpg,assets/projects/preview_1_3.jpg"
+					>
+						<p>Caesar's Cipher and Vigenere's Cipher are techniques of encrypting text, each having its own pros and cons.</p>
+						
+						<p>I created C programs to encrypt text using Caesar's Cipher and Vigenere's Cipher, as per user's specifications. User has to enter the text to be ciphered and the key, in order to generate encrypted text. I also analyzed the security of both algorithms for storing data in encrypted form.</p>
+
+						<p>Have a secret? Encrypt it using my programs :)</p>
+
+						<p class="text-right"><a class="btn btn-meflat icon-right" href="https://github.com/heizaman/cipher" target="_blank">View<i class="fa fa-arrow-right"></i></a></p>
+					</div>
+				</article>
+
+				<article class="project-item programming web">
+					<img class="img-responsive project-image" src="assets/projects/dribbble_1.jpg"  alt="">
+					
+					<div class="hover-mask">
+						<h2 class="project-title">Web Server</h2>
+						<p>Fall 2016</p>
+					</div>
+										
+					<div class="sr-only project-description" 
+						data-category="Programming / Web" 
+						data-date="Fall 2016" 
+						data-descr="A web server implemented using C language" 
+						data-images="assets/projects/preview_1_1.jpg,assets/projects/preview_1_2.jpg,assets/projects/preview_1_3.jpg"
+					>
+						<p>This web server, implemented in C language, is used to serve static content and dynamic content via PHP. It can be used on any port and any home directory in the computer.</p>
+						
+						<p>Using the skeleton code provided by Harvard University, i implemented my very own web server. I wrote functions to parse command line arguments and get the port, root and other specifications of the server. I parsed the request and rendered the corresponding file, in a function named parse. Content is served by reading in the bytes, and spitting them back out. There is also a signal handler, to listen to Ctrl+C, for shutting down the server gracefully by freeing up memory.</p>
+
+						<p>Tired of using apache as your server? Try mine for a change :p</p>
+
+						<p class="text-right"><a class="btn btn-meflat icon-right" href="https://github.com/heizaman/c-server" target="_blank">View<i class="fa fa-arrow-right"></i></a></p>
+					</div>
+				</article>
+
+				<article class="project-item web">
+					<img class="img-responsive project-image" src="assets/projects/dribbble_1.jpg"  alt="">
+					
+					<div class="hover-mask">
+						<h2 class="project-title">User Registration & Login Module</h2>
+						<p>Fall 2016</p>
+					</div>
+										
+					<div class="sr-only project-description" 
+						data-category="Web" 
+						data-date="Fall 2016" 
+						data-descr="A simple structure to provide smooth user registration and login" 
+						data-images="assets/projects/preview_1_1.jpg,assets/projects/preview_1_2.jpg,assets/projects/preview_1_3.jpg"
+					>
+						<p>This project aims to provide a simple user registration and login structure, that can be used by any application.</p>
+						
+						<p>I used PHP, SQL, jQuery, JSON Web Tokens to ensure a smooth, functional and user friendly working of the system. APIs are written in PHP. Database is in SQL. JSON Web Tokens ensure the security.</p>
+
+						<p>Below is a link to the project's github repository. Feel free to use it :)</p>
+
+						<p class="text-right"><a class="btn btn-meflat icon-right" href="https://github.com/heizaman/user-management" target="_blank">View<i class="fa fa-arrow-right"></i></a></p>
+					</div>
+				</article>
 			
 				<article class="project-item programming">
 					<img class="img-responsive project-image" src="assets/projects/dribbble_1.jpg"  alt="">
@@ -293,11 +365,13 @@
 						data-descr="A game developed on scratch.mit.edu platform" 
 						data-images="assets/projects/preview_1_1.jpg,assets/projects/preview_1_2.jpg,assets/projects/preview_1_3.jpg"
 					>
-						<p>Designed a space game using Scratch having 4 backdrops and 3 sprites, each having own scripts of code describing their behaviour according to user input/control. A separate set of scripts controls the sound played, score and lives of the player.</p>
+						<p>Pico's Space Game is a game with graphics in which various objects fall from the sky and you have to collect some objects & dodge others. You get 3 lives, which decrease by 1 if you collect an object you are not supposed to. Also, your score increases by 1 on collecting a desired object.</p>
 						
-						<p>Phasellus porta eros vel lacus euismod consequat. Phasellus eleifend, nibh non feugiat hendrerit, lacus enim adipiscing eros, a pharetra erat neque eget est. Quisque vitae aliquet urna. Integer suscipit lectus eu enim porttitor fringilla. Ut blandit, urna in auctor euismod, arcu eros pharetra metus, a porta purus libero a nibh.</p>
-						<p>Nam eget urna pellentesque nisl ultrices dapibus. Mauris accumsan vehicula nisl, sed tempus mauris facilisis eu. Donec a iaculis nisi, quis malesuada justo. Pellentesque ut enim sit amet ipsum dignissim egestas. Morbi tincidunt rhoncus urna eget placerat.</p>
-						<p class="text-right"><a class="btn btn-meflat icon-right" href="https://scratch.mit.edu/projects/123706610/">View<i class="fa fa-arrow-right"></i></a></p>
+						<p>I designed this space game using Scratch, a platform by MIT. I used 4 backdrops, which represent the screens in the game. I used them for menu, instructions, gameplay and results. Also, i used 3 sprites, which represent the characters in the game. For player, there is code to control the movement according user input. For objects falling from above, there is code to control the time interval and the place of fall. Apart from that, i incorporated soundplay in the game, to play various sounds on occurrence of various events.</p>
+
+						<p>Visit the link below and try out my game. I hope you will like it :)</p>
+
+						<p class="text-right"><a class="btn btn-meflat icon-right" href="https://scratch.mit.edu/projects/123706610/" target="_blank">View<i class="fa fa-arrow-right"></i></a></p>
 					</div>
 				</article>
 

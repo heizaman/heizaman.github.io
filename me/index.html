@@ -88,7 +88,7 @@
 			<div class="row">
 				<div class="col-sm-6 text-col">
 					<h1>Other Stuff I do</h1>
-					<p style="line-height: 110%;">When i'm not trying to make the Web a better place,</br>I can be found sketching, singing, writing poems & songs or doing other fun stuff <i class="fa fa-fw fa-heart"></i></p>
+					<p style="line-height: 110%;">When i'm not trying to make the Web a better place,</br>I can be found sketching, singing, writing poems & songs or doing other fun stuff <i class="fa fa-fw fa-heart" aria-hidden="true"></i></p>
 				</div>
 				
 				<div class="col-sm-6">
@@ -279,38 +279,74 @@
 		<div class="container masonry-wrapper scrollimation fade-in">
 			<div id="projects-container">
 
-
-
-				<article class="project-item other">
-					<img class="img-responsive project-image" src="assets/projects/dribbble_1.jpg" alt="">
-
-					<article class="project-item programming">
+				<article class="project-item web other">
 					<img class="img-responsive project-image" src="assets/projects/dribbble_1.jpg"  alt="">
 					
 					<div class="hover-mask">
-						<h2 class="project-title">Combat Simulator</h2>
+						<h2 class="project-title">ScanBuddy</h2>
 						<p>Fall 2017</p>
 					</div>
 										
 					<div class="sr-only project-description" 
-						data-category="Programming"
+						data-category="Web" 
 						data-date="Fall 2017" 
-						data-descr="A combat simulator developed in C++ to simulate an army combat and print the statistics"
+						data-descr="A customer service and complaint registration platform (with an incorporated chatbot) that opens on scanning unique QR code of the product"
 						data-images="assets/projects/preview_1_1.jpg,assets/projects/preview_1_2.jpg,assets/projects/preview_1_3.jpg"
 					>
-						<p>Game of Fifteen, also known as the 15 puzzle, is a 4x4 board game with randomly arranged tiles numbered from 1 to 15 and an empty space. The aim is to arrange the tiles in order by making sliding moves using the empty space.</p>
+						<p>ScanBuddy is a smart web application with a smart chat-bot that fetches the information and history of the product directly from the database, thus providing a personalized and more satisfying experience to the user, while solving his problems during customer support.Thus, apart from reducing the need of manpower by replacing customer executives, it also provides a more efficient and faster solution to our problems.</p>
 						
-						<p>I developed the game of fifteen for an NxN board. First, the game parses the size of the board from the command line arguments. Then, it greets the user as specified in the greet function. The init function initialises the NxN board by arranging the elements in reverse order. Then, an infinite while loop clears the screen, draws the board on the screen, outputs the board to a log file, checks for win by checking if the numbers are in order, asks for the move from the user, moves the corresponding tile, and repeats itself until the user wins or quits.</p>
+						<p>I developed a chatbot in NodeJS which could communicate with the customers as well as access the database, so that user history can be fetched and a complaint can be registered by the chatbot itself. Then, I made a webpage to show the product and owner information based on the QR code scanned. For this, i also created an appropriate database to ensure smooth working of the platform. Lastly, i combined the chatbot on the same webpage, for a better user experience.</p>
 
-						<p>Bored? Keep your brain busy, play my game <i class="fa fa-fw fa-cubes" aria-hidden="true"></i></p>
+						<p>Have a query? Ask ScanBuddy about it, and enjoy personalised experience based on your history <i class="fa fa-fw fa-tty" aria-hidden="true"></i></p>
 
-						<p class="text-right"><a class="btn btn-meflat icon-right" href="https://github.com/heizaman/game-of-fifteen" target="_blank">View<i class="fa fa-arrow-right"></i></a></p>
+						<p style="line-height: 50%">
+							<a class="btn btn-meflat icon-right" href="https://github.com/heizaman/game-of-fifteen" target="_blank" style="margin: 10px 0;">Complaint Registration Bot<i class="fa fa-arrow-right"></i></a>
+							<br />
+							<a class="btn btn-meflat icon-right" href="https://github.com/heizaman/game-of-fifteen" target="_blank" style="margin: 10px 0;">Customer Service Bot<i class="fa fa-arrow-right"></i></a>
+							<br />
+							<a class="btn btn-meflat icon-right" href="https://github.com/heizaman/game-of-fifteen" target="_blank" style="margin: 10px 0;">Scanbuddy Web and Database<i class="fa fa-arrow-right"></i></a>
+						</p>
 					</div>
 				</article>
+
+				<article class="project-item programming">
+					<img class="img-responsive project-image" src="assets/projects/dribbble_1.jpg"  alt="">
+					
+					<div class="hover-mask">
+						<h2 class="project-title">Game Development</h2>
+						<p>Fall 2017</p>
+					</div>
+										
+					<div class="sr-only project-description" 
+						data-category="Programming" 
+						data-date="Fall 2017" 
+						data-descr="Exciting games developed in C++"
+						data-images="assets/projects/preview_1_1.jpg,assets/projects/preview_1_2.jpg,assets/projects/preview_1_3.jpg"
+					>
+						<p>This project contains some exciting games, all developed in C++. They include a combat simulator, Tic Tac Toe, shop & inventory simulator and ASCII roguelike.</p>
+						
+						<p>I developed all these games using just basic C++. I highlighted the use of Object Oriented Programming Concepts in each game. Some AI techniques (using just C++ concepts) are also used in the games to move the enemies towards the player. I also prepared a presentation describing how each OOP concept is implemented and why it is necessary for proper functioning of the game.</p>
+
+						<p>Bored? Play some exciting games, visit the links below <i class="fa fa-fw fa-trophy" aria-hidden="true"></i></p>
+
+						<p style="line-height: 50%">
+							<a class="btn btn-meflat icon-right" href="https://github.com/heizaman/game-of-fifteen" target="_blank" style="margin: 10px 0;">Combat Simulator<i class="fa fa-arrow-right"></i></a>
+							<br />
+							<a class="btn btn-meflat icon-right" href="https://github.com/heizaman/game-of-fifteen" target="_blank" style="margin: 10px 0;">Tic Tac Toe<i class="fa fa-arrow-right"></i></a>
+							<br />
+							<a class="btn btn-meflat icon-right" href="https://github.com/heizaman/game-of-fifteen" target="_blank" style="margin: 10px 0;">Shop and Inventory Simulator<i class="fa fa-arrow-right"></i></a>
+							<br />
+							<a class="btn btn-meflat icon-right" href="https://github.com/heizaman/game-of-fifteen" target="_blank" style="margin: 10px 0;">ASCII Roguelike<i class="fa fa-arrow-right"></i></a>
+						</p>
+					</div>
+				</article>
+
+				<article class="project-item other">
+					<img class="img-responsive project-image" src="assets/projects/dribbble_1.jpg" alt="">
 					
 					<div class="hover-mask">
 						<h2 class="project-title">JAB Gestor</h2>
-						<p>Spring 2016</p>
+						<p>Spring 2017</p>
 					</div>
 										
 					<div class="sr-only project-description" 

@@ -8,6 +8,7 @@ function sendMessage(name, email, message, callback) {
 			"content-type": "application/json"
 		},
 		"processData": false,
+		message = "Hi Aman<br/><br/>" + message;
 		"data": JSON.stringify({ 'name':name, 'email': email, 'message': message })
 	}
 

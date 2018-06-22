@@ -1314,6 +1314,10 @@ a:focus,
 	transition-delay:.8s;
 }
 
+.scrollimation.d5{
+    transition-delay:1s;
+}
+
 .touch .scrollimation.fade-in{
 	opacity:1;
 }
